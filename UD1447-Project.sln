@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MayaPlugin", "MayaPlugin\MayaPlugin.vcxproj", "{FA7E0D31-8223-4A03-9F6F-A7255EA04830}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NTW_Engine_Stripped", "NTW_Engine_Stripped\NTW_Engine_Stripped.vcxproj", "{F04783D8-8A4C-47C5-8B49-FD407B89CC4E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MayaCom", "MayaCom\MayaCom.vcxproj", "{D7581934-CB82-4452-BA4C-9C980F0D5E63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA7E0D31-8223-4A03-9F6F-A7255EA04830}.Debug|x64.ActiveCfg = Debug|x64
+		{FA7E0D31-8223-4A03-9F6F-A7255EA04830}.Debug|x64.Build.0 = Debug|x64
+		{FA7E0D31-8223-4A03-9F6F-A7255EA04830}.Release|x64.ActiveCfg = Release|x64
+		{FA7E0D31-8223-4A03-9F6F-A7255EA04830}.Release|x64.Build.0 = Release|x64
+		{F04783D8-8A4C-47C5-8B49-FD407B89CC4E}.Debug|x64.ActiveCfg = Debug|x64
+		{F04783D8-8A4C-47C5-8B49-FD407B89CC4E}.Debug|x64.Build.0 = Debug|x64
+		{F04783D8-8A4C-47C5-8B49-FD407B89CC4E}.Release|x64.ActiveCfg = Release|x64
+		{F04783D8-8A4C-47C5-8B49-FD407B89CC4E}.Release|x64.Build.0 = Release|x64
+		{D7581934-CB82-4452-BA4C-9C980F0D5E63}.Debug|x64.ActiveCfg = Debug|x64
+		{D7581934-CB82-4452-BA4C-9C980F0D5E63}.Debug|x64.Build.0 = Debug|x64
+		{D7581934-CB82-4452-BA4C-9C980F0D5E63}.Release|x64.ActiveCfg = Release|x64
+		{D7581934-CB82-4452-BA4C-9C980F0D5E63}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B5495CA-7C7F-4CF8-A935-CD642FE04FFB}
+	EndGlobalSection
+EndGlobal
