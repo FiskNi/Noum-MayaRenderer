@@ -80,16 +80,20 @@
       <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
     </Link>
     <PreBuildEvent>
-      <Command>python unloadPlugin.py</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
     <PreBuildEvent>
-      <Message>Unload Maya plugin before building</Message>
+      <Message>
+      </Message>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Command>python loadPlugin.py</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
     <PostBuildEvent>
-      <Message>Load Plugin after build</Message>
+      <Message>
+      </Message>
     </PostBuildEvent>
     <CustomBuildStep>
       <Command>
