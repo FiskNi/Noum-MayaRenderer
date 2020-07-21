@@ -1,6 +1,5 @@
 #include <Pch/Pch.h>
 #include "Application.h"
-#include "States/PlayState.h"
 #include "MayaCommunicator/MayaViewer.h"
 #include <System/MemoryUsage.h>
 

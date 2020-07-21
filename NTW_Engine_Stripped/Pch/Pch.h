@@ -59,13 +59,6 @@
 #include <System/Input.h>
 #include <GameObject/ObjectTypes.h>	
 
-// DSTR
-#include <Destruction/TriangleNode.h>
-#include <Destruction/Geometry.h>
-#include <Destruction/DelaunayGenerator.h>
-#include <Destruction/VoroniCalculator.h>
-#include <Destruction/VoroniClipper.h>
-#include <Destruction/DstrGenerator.h>
 
 
 const std::string SHADERPATH = "Assets/Shaders/";
