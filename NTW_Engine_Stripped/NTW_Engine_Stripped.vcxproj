@@ -97,13 +97,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Destruction\DelaunayGenerator.cpp" />
-    <ClCompile Include="Destruction\DstrGenerator.cpp" />
-    <ClCompile Include="Destruction\PointCompare.cpp" />
-    <ClCompile Include="Destruction\VoroniCalculator.cpp" />
-    <ClCompile Include="Destruction\VoroniClipper.cpp" />
     <ClCompile Include="GameObject\MapObject.cpp" />
-    <ClCompile Include="GameObject\DestructibleObject.cpp" />
     <ClCompile Include="GFX\Pointlight.cpp" />
     <ClCompile Include="MayaCommunicator\MayaObject.cpp" />
     <ClCompile Include="MayaCommunicator\MayaViewer.cpp" />
@@ -128,10 +122,6 @@
     <ClCompile Include="Renderer\ShaderMap.cpp" />
     <ClCompile Include="Renderer\SkyBox.cpp" />
     <ClCompile Include="Mesh\SkeletonMap.cpp" />
-    <ClCompile Include="States\PlayState.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pch/Pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pch/Pch.h</PrecompiledHeaderFile>
-    </ClCompile>
     <ClCompile Include="System\Application.cpp" />
     <ClCompile Include="System\BulletPhysics.cpp" />
     <ClCompile Include="System\Input.cpp" />
@@ -151,14 +141,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Destruction\DelaunayGenerator.h" />
-    <ClInclude Include="Destruction\DstrGenerator.h" />
-    <ClInclude Include="Destruction\Geometry.h" />
-    <ClInclude Include="Destruction\PointCompare.h" />
-    <ClInclude Include="Destruction\TriangleNode.h" />
-    <ClInclude Include="Destruction\VoroniCalculator.h" />
-    <ClInclude Include="Destruction\VoroniClipper.h" />
-    <ClInclude Include="GameObject\DestructibleObject.h" />
     <ClInclude Include="GameObject\MapObject.h" />
     <ClInclude Include="GFX\Pointlight.h" />
     <ClInclude Include="MayaCommunicator\MayaObject.h" />
@@ -183,7 +165,6 @@
     <ClInclude Include="Renderer\SkyBox.h" />
     <ClInclude Include="Mesh\SkeletonMap.h" />
     <ClInclude Include="GameObject\ObjectTypes.h" />
-    <ClInclude Include="States\PlayState.h" />
     <ClInclude Include="System\Application.h" />
     <ClInclude Include="System\BulletPhysics.h" />
     <ClInclude Include="System\DeltaTime.h" />

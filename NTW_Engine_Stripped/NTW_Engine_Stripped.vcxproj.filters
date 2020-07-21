@@ -16,7 +16,6 @@
     <ClCompile Include="Renderer\ShaderMap.cpp" />
     <ClCompile Include="Renderer\SkyBox.cpp" />
     <ClCompile Include="Mesh\SkeletonMap.cpp" />
-    <ClCompile Include="States\PlayState.cpp" />
     <ClCompile Include="System\Application.cpp" />
     <ClCompile Include="System\BulletPhysics.cpp" />
     <ClCompile Include="System\Input.cpp" />
@@ -26,7 +25,6 @@
     <ClCompile Include="System\TimedCallback.cpp" />
     <ClCompile Include="System\Timer.cpp" />
     <ClCompile Include="Texture\stb_image.cpp" />
-    <ClCompile Include="GameObject\DestructibleObject.cpp" />
     <ClCompile Include="GameObject\MapObject.cpp" />
     <ClCompile Include="GFX\Pointlight.cpp" />
     <ClCompile Include="System\MemoryUsage.cpp" />
@@ -34,11 +32,6 @@
     <ClCompile Include="MayaCommunicator\MayaObject.cpp" />
     <ClCompile Include="MayaCommunicator\Reciever.cpp" />
     <ClCompile Include="MayaCommunicator\MayaViewer.cpp" />
-    <ClCompile Include="Destruction\DelaunayGenerator.cpp" />
-    <ClCompile Include="Destruction\DstrGenerator.cpp" />
-    <ClCompile Include="Destruction\PointCompare.cpp" />
-    <ClCompile Include="Destruction\VoroniCalculator.cpp" />
-    <ClCompile Include="Destruction\VoroniClipper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mesh\AnimationMap.h" />
@@ -57,7 +50,6 @@
     <ClInclude Include="Renderer\ShaderMap.h" />
     <ClInclude Include="Renderer\SkyBox.h" />
     <ClInclude Include="Mesh\SkeletonMap.h" />
-    <ClInclude Include="States\PlayState.h" />
     <ClInclude Include="System\Application.h" />
     <ClInclude Include="System\BulletPhysics.h" />
     <ClInclude Include="System\DeltaTime.h" />
@@ -70,7 +62,6 @@
     <ClInclude Include="System\TimedCallback.h" />
     <ClInclude Include="System\Timer.h" />
     <ClInclude Include="Texture\stb_image.h" />
-    <ClInclude Include="GameObject\DestructibleObject.h" />
     <ClInclude Include="System\Randomizer.h" />
     <ClInclude Include="System\DeltaTime.h" />
     <ClInclude Include="Renderer\NotificationStructure.h" />
@@ -85,13 +76,6 @@
     <ClInclude Include="MayaCommunicator\MayaObject.h" />
     <ClInclude Include="MayaCommunicator\Reciever.h" />
     <ClInclude Include="MayaCommunicator\MayaViewer.h" />
-    <ClInclude Include="Destruction\DelaunayGenerator.h" />
-    <ClInclude Include="Destruction\DstrGenerator.h" />
-    <ClInclude Include="Destruction\Geometry.h" />
-    <ClInclude Include="Destruction\PointCompare.h" />
-    <ClInclude Include="Destruction\TriangleNode.h" />
-    <ClInclude Include="Destruction\VoroniCalculator.h" />
-    <ClInclude Include="Destruction\VoroniClipper.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GameObject\GameObject.h" />
