@@ -75,6 +75,10 @@
       <SubSystem>Console</SubSystem>
       <AdditionalDependencies>glfw3dll.lib;opengl32.lib;glew32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y  "$(SolutionDir)Dependencies\glew32.dll" "$(TargetDir)" 
+xcopy /y  "$(SolutionDir)Dependencies\glfw3.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -95,6 +99,10 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>glfw3dll.lib;opengl32.lib;glew32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;BulletCollision.lib;BulletDynamics.lib;BulletSoftBody.lib;LinearMath.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y  "$(SolutionDir)Dependencies\glew32.dll" "$(TargetDir)" 
+xcopy /y  "$(SolutionDir)Dependencies\glfw3.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GameObject\GameObject.cpp" />
