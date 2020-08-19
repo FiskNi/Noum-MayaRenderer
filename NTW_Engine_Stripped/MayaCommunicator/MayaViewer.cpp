@@ -50,7 +50,7 @@ MayaViewer::~MayaViewer()
 	m_objects.clear();
 
 
-	BulletPhysics::getInstance()->destroy();
+	//BulletPhysics::getInstance()->destroy();
 	MeshMap::getInstance()->cleanUp();
 	Reciever::GetInstance()->Destroy();
 

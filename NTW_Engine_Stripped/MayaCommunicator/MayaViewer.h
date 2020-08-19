@@ -5,7 +5,7 @@
 #include <GFX/MaterialMap.h>
 #include <GameObject/GameObject.h>
 #include <GameObject/WorldObject.h>
-#include <System/BulletPhysics.h>
+//#include <System/BulletPhysics.h>
 #include <GFX/Pointlight.h>
 #include <System/MemoryUsage.h>
 

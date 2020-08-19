@@ -4,7 +4,7 @@
 #include <Mesh/Mesh.h>
 #include <GFX/MaterialMap.h>
 #include <Mesh/Mesh.h>
-#include <System/BulletPhysics.h>
+//#include <System/BulletPhysics.h>
 #include <Renderer/Camera.h>
 
 class GameObject {
@@ -24,13 +24,6 @@ public:
 	void bindMaterialToShader(Shader* shader, const int& meshIndex = 0);
 	
 	// Bullet
-	void makeStatic();
-	void updateBulletRigids();
-	void setTransformFromRigid(int meshIndex = 0);
-	void createRigidBody(btRigidBody* body, int meshIndex = 0);
-	void createDynamic(CollisionObject shape = box, float weight = 1.0f, int meshIndex = 0, bool recenter = true);	
-	void removeBody(int bodyIndex);
-	void setBodyActive(bool state = false, int meshIndex = 0);
 	
 	void setNormalMap(const char* fileName);
 	void setTexture(const char* fileName);
@@ -43,7 +36,6 @@ public:
 	void setWorldRotation(glm::quat worldRotation);
 	void setMeshOffsetPosition(glm::vec3 position, int meshIndex = 0);
 	void setMeshOffsetRotation(glm::quat rotation, int meshIndex = 0);
-	void setBodyWorldPosition(glm::vec3 worldPosition, int meshIndex = 0);
 
 	void setShouldRender(bool condition);
 	void setMaterial(Material* material, int meshIndex = 0);
@@ -56,14 +48,12 @@ public:
 	const Transform getTransform(int meshIndex = 0) const;
 	const Transform getObjectTransform() const;
 	const Transform getLocalTransform(int meshIndex = 0) const;
-	const Transform getRigidTransform(int meshIndex = 0) const;
 	const int getMeshesCount() const { return (int)m_meshes.size(); }
 	const glm::mat4& getMatrix(const int& i = 0) const;
 	const int getType() const { return m_type; }
 	const bool& getShouldRender() const;
 	const glm::vec3 getLastPosition() const;	
 
-	btRigidBody* getRigidBody(int meshIndex = 0) const { return m_meshes[meshIndex].body; }
 
 
 	void updateTransform();
@@ -76,13 +66,11 @@ private:
 		Material* material;
 		Transform transform;
 
-		btRigidBody* body;
 
 		MeshBox()
 		{
 			mesh = nullptr;
 			material = nullptr;
-			body = nullptr;
 		}
 	};
 

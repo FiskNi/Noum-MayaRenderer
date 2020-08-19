@@ -4,7 +4,7 @@
 
 #include <System/DeltaTime.h>
 #include <System/Framerate.h>
-#include "Bullet/btBulletDynamicsCommon.h"
+//#include "Bullet/btBulletDynamicsCommon.h"
 
 #include <iostream>
 #include <fstream>
